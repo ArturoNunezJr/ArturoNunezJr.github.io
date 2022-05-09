@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #080808;
+  background-image: linear-gradient(to bottom, #929191, #771e1ef9);
+  background-color: #771e1ef9;
+  background-repeat: no-repeat;
+}
+header {
+  color: #771e1ef9;
+  background-image: url(mglogo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+  padding: 1.5em;
+  text-align: left;
+}
+nav {
+  padding: 1em;
+  font-weight: bold;
+  font-size: 150%;
+  float: left;
+  width: 100px;
+}
+nav a {
+  text-decoration: none;
+}
+nav a:link {
+  color: #5c7fa3;
+}
+nav a:visited {
+  color: #0d3894;
+}
+nav a:hover {
+  color: #a52a2a;
+}
+nav ul {
+  list-style-type: none;
+  padding: 1px;
+}
+main {
+  margin-left: 200px;
+  padding: 5em;
+  background-image: linear-gradient(to bottom, #929191, #771e1ef9);
+}
+h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #4e0909;
+}
+h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #962626;
+}
+table {
+  margin: auto;
+  border: 5px solid #262679;
+  width: 700px;
+}
+td,
+th {
+  border-color: #000066;
+  padding: 5px;
+  font-family: Arial, sans-serif;
+}
+caption {
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  padding-bottom: 5px;
+}
+td,
+th {
+  padding: 5px;
+  font-family: Arial, sans-serif;
+  border-style: none;
+}
+tr:nth-of-type(even) {
+  background-color: #eaeaea;
+}
+
+#wrapper {
+  background-color: #f5f4f4;
+  width: 80%;
+  min-width: 960px;
+  max-width: 2048px;
+  box-shadow: 5px 5px 5px #333333;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer {
+  font-size: 100%;
+  font-style: italic;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", serif;
+  padding: 2em;
+}
